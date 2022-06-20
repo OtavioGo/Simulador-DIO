@@ -1,4 +1,4 @@
-package com.example.simulador_dio
+package com.example.simulador_dio.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
