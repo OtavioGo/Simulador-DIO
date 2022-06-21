@@ -5,4 +5,5 @@
     <string name="txt_versus">X</string>
     <string name="cd_away_team">Away team image</string>
     <string name="txt_default_score">-</string>
+    <string name="error_api">Unexpected error.</string>
 </resources>
