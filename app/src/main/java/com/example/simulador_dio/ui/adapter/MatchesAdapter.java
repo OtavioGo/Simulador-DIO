@@ -1,6 +1,7 @@
 package com.example.simulador_dio.ui.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -10,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.simulador_dio.databinding.MatchItemBinding;
 import com.example.simulador_dio.domain.Match;
+import com.example.simulador_dio.ui.DetailActivity;
 
 import java.util.List;
 
@@ -50,6 +52,13 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
         if (match.getAwayTeam().getScore() != null) {
             holder.binding.tvAwayTeamScore.setText(String.valueOf(match.getAwayTeam().getScore()));
         }
+
+        //Transformar o Card em click
+        holder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(context, DetailActivity.class);
+            intent.putExtra(DetailActivity.Extras.MATCH, match);
+            context.startActivity(intent);
+        });
     }
 
     @Override
