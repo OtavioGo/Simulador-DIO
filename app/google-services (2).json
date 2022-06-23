@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "834244088479",
+    "project_id": "simulador-dio-fabd3",
+    "storage_bucket": "simulador-dio-fabd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834244088479:android:65553c69364deba32288aa",
+        "android_client_info": {
+          "package_name": "com.example.simulador_dio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834244088479-1afl7e0m21ne3v259v746p39t6k226ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIUd78Y6NNZs4I2BeV1CkEQdbprJCgugg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834244088479-1afl7e0m21ne3v259v746p39t6k226ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

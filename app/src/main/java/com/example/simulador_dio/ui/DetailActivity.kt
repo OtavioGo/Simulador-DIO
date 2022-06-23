@@ -1,8 +1,7 @@
 package com.example.simulador_dio.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.service.autofill.FieldClassification
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.example.simulador_dio.databinding.ActivityDetailBinding
 import com.example.simulador_dio.domain.Match
