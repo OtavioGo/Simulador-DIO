@@ -17,7 +17,7 @@ import java.util.List;
 
 public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHolder>{
 
-    private List<Match> matches;
+    private final List<Match> matches;
 
     public MatchesAdapter(List<Match> matches) {
         this.matches = matches;
